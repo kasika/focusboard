@@ -1,0 +1,12 @@
+.btn-floating {
+  position: fixed;
+  bottom: 52px;
+
+  .btn-floating--bottom-left {
+    left: 30px;
+  }
+
+  .btn-floating--bottom-right {
+    right: 30px;
+  }
+}

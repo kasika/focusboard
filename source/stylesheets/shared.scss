@@ -1,0 +1,19 @@
+.full-height {
+  min-height: 100vh;
+  height: 100%;
+
+  &--has-components {
+    min-height: calc(100vh - #{$navbar-height} - #{$footer-height});
+    height: calc(100% - #{$navbar-height} - #{$footer-height});
+  }
+}
+
+.icon-ok {
+  border: 3px solid;
+  border-radius: 50%;
+  padding: 10px 8px;
+}
+
+.beta-footer {
+  font-size: 14px;
+}

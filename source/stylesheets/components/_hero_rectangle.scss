@@ -1,0 +1,47 @@
+.hero-rectangle {
+  position: absolute;
+  border-radius: 15px;
+  background-color: $rectangle-bg;
+
+  &--1 {
+    top: 58px;
+    left: -14px;
+    width: 178px;
+    height: 256px;
+    opacity: 0.07;
+  }
+
+  &--2 {
+    top: 208px;
+    left: 30px;
+    width: 256px;
+    height: 256px;
+    opacity: 0.13;
+  }
+
+  &--3 {
+    top: 275px;
+    left: -10px;
+    width: 104px;
+    height: 150px;
+    opacity: 0.13;
+    background-color: $rectangle-bg-dark;
+  }
+
+  &--4 {
+    top: 240px;
+    right: 53px;
+    width: 150px;
+    height: 150px;
+    opacity: 0.13;
+    background-color: $rectangle-bg-dark;
+  }
+
+  &--5 {
+    top: 280px;
+    right: 130px;
+    width: 215px;
+    height: 215px;
+    opacity: 0.1;
+  }
+}

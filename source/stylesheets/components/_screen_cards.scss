@@ -1,0 +1,78 @@
+.screen-card-empty {
+  background-color: rgba(96, 127, 208, 0.1);
+  border-radius: $border-radius;
+  width: 100%; // for mockups only, remove when implemented resize/drag&drop logic
+  height: 400px; // for mockups only, remove when implemented resize/drag&drop logic
+}
+
+.fake-browser {
+  height: 24px;
+  padding: 4px 10px;
+  background-color: $white;
+  border: solid 0.5px #c4cae0;
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+  position: relative;
+}
+
+.fake-browser-location,
+.fake-browser-time {
+  font-size: 10px;
+}
+
+.screen-card {
+  position: relative;
+  padding-bottom: 3px;
+  border: solid 0.5px #c4cae0;
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+
+  &:hover {
+
+  }
+}
+
+.screen-card-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba($primary, .8);
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+  text-align: center;
+  color: $white;
+  padding-top: 25%;
+  opacity: 0;
+  transition: $link-transition;
+
+  &:hover {
+    text-decoration: none;
+    opacity: 1;
+  }
+
+  .icon-search {
+    font-size: 2em;
+    transition: $link-transition;
+
+    &:hover {
+      cursor: pointer;
+      color: rgba(0,0,0, .3);
+    }
+  }
+
+  .overlay-actions {
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+
+    i:hover {
+      cursor: pointer;
+      color: rgba(0,0,0, .3);
+      transition: $link-transition;
+    }
+  }
+
+}
